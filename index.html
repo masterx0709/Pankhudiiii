@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pankhudi Natural Body Protein Juice — 100% Herbal Ayurvedic formula by Chouhan Food Corporation, Bundi, Rajasthan.">
+<title>Pankhudi Natural Body Protein Juice | Chouhan Food Corporation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+Devanagari:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  /* Imperial Heritage Palette — from your poster */
+  --bg:#071a0e;
+  --bg2:#0d2a17;
+  --bg3:#122e1c;
+  --royal:#0f3d20;
+  --emerald:#1a5c35;
+  --green:#2d7a48;
+  --green2:#3d8f58;
+  --green3:#6ab882;
+  --gold:#c9a84c;
+  --gold2:#e8c97a;
+  --gold3:#f5e0a0;
+  --gold4:#a07828;
+  --cream:#f5e8d0;
+  --red:#8b1a1a;
+  --red2:#c0392b;
+  --white:#f8f2e6;
+  --muted:rgba(248,242,230,0.5);
+  --muted2:rgba(248,242,230,0.28);
+  --border:rgba(201,168,76,0.15);
+  --border-g:rgba(201,168,76,0.35);
+  --border-g2:rgba(201,168,76,0.6);
+  --surface:rgba(201,168,76,0.04);
+  --surface2:rgba(201,168,76,0.08);
+  --radius:14px;
+  --radius2:20px;
+  --shadow:0 8px 40px rgba(0,0,0,0.5);
+  --shadow2:0 24px 80px rgba(0,0,0,0.65);
+}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--bg);
+  font-family:'Outfit',sans-serif;
+  color:var(--white);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+img{display:block;max-width:100%;}
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--gold4);border-radius:3px;}
+
+/* ══ BACKGROUND SYSTEM ══ */
+.bg-imperial{
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 100% 60% at 50% 0%,rgba(26,92,53,0.7) 0%,transparent 55%),
+    radial-gradient(ellipse 80% 50% at 100% 30%,rgba(15,61,32,0.5) 0%,transparent 50%),
+    radial-gradient(ellipse 80% 60% at 0% 70%,rgba(12,45,24,0.5) 0%,transparent 50%),
+    linear-gradient(180deg,#071a0e 0%,#040e07 100%);
+}
+/* Golden light ray — like poster */
+.bg-rays{
+  position:fixed;inset:0;z-index:1;pointer-events:none;
+  background:conic-gradient(from 270deg at 50% -10%,
+    transparent 0deg,
+    rgba(201,168,76,0.04) 10deg,
+    transparent 20deg,
+    rgba(201,168,76,0.03) 30deg,
+    transparent 40deg,
+    rgba(201,168,76,0.05) 50deg,
+    transparent 70deg
+  );
+}
+/* Mandala watermark */
+.bg-mandala{
+  position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+  z-index:1;pointer-events:none;
+  width:min(800px,90vw);height:min(800px,90vw);
+  opacity:.03;
+}
+/* Paisley corner decorations */
+.paisley{position:fixed;z-index:2;pointer-events:none;opacity:.12;}
+.paisley.tl{top:0;left:0;width:min(280px,35vw);transform-origin:top left;}
+.paisley.tr{top:0;right:0;width:min(280px,35vw);transform:scaleX(-1);transform-origin:top right;}
+.paisley.bl{bottom:0;left:0;width:min(220px,28vw);transform:scaleY(-1);}
+.paisley.br{bottom:0;right:0;width:min(220px,28vw);transform:scale(-1);}
+/* Gold particle dots */
+.particles{position:fixed;inset:0;z-index:2;pointer-events:none;overflow:hidden;}
+.particle{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(201,168,76,0.7),transparent);animation:particleFloat linear infinite;}
+@keyframes particleFloat{0%{transform:translateY(100vh) scale(0);opacity:0;}10%{opacity:1;}90%{opacity:.2;}100%{transform:translateY(-50px) scale(1);opacity:0;}}
+
+/* ══ PROGRESS BAR ══ */
+.progress-bar{position:fixed;top:0;left:0;z-index:999;height:3px;background:linear-gradient(90deg,var(--gold4),var(--gold2),var(--gold3));width:0%;transition:width .1s;}
+
+/* ══ TICKER ══ */
+.ticker{
+  position:relative;z-index:50;overflow:hidden;
+  background:linear-gradient(90deg,var(--gold4),var(--gold),var(--gold2),var(--gold3),var(--gold2),var(--gold),var(--gold4));
+  padding:9px 0;
+  border-bottom:1px solid var(--gold4);
+}
+.ticker-track{display:flex;width:max-content;animation:ticker 35s linear infinite;}
+.ticker-item{font-size:clamp(9px,2vw,11px);font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--bg);white-space:nowrap;padding:0 clamp(24px,5vw,50px);}
+.ticker-item::after{content:"✦";margin-left:clamp(24px,5vw,50px);opacity:.5;}
+@keyframes ticker{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* ══ NAV ══ */
+.nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(4,11,7,0.92);
+  backdrop-filter:blur(28px) saturate(180%);
+  border-bottom:1px solid var(--border-g);
+  transition:all .3s;
+}
+.nav::after{content:'';position:absolute;bottom:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.4;}
+.nav.scrolled{background:rgba(3,8,5,0.98);box-shadow:0 4px 30px rgba(0,0,0,.6);}
+.nav-inner{max-width:1120px;margin:0 auto;padding:0 clamp(16px,4vw,48px);display:flex;align-items:center;justify-content:space-between;height:clamp(60px,8vw,72px);}
+.nav-logo{display:flex;flex-direction:column;line-height:1;}
+.nav-logo-main{font-family:'Noto Serif Devanagari',serif;font-size:clamp(18px,3vw,24px);font-weight:900;background:linear-gradient(135deg,var(--gold2),var(--gold3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:1px;}
+.nav-logo-sub{font-size:clamp(8px,1.4vw,10px);letter-spacing:3px;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+.nav-links{display:flex;align-items:center;gap:clamp(6px,2vw,28px);}
+.nav-links a{font-size:clamp(10px,1.4vw,12px);font-weight:500;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;padding:5px 2px;position:relative;transition:color .25s;}
+.nav-links a::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:1px;background:var(--gold2);transform:scaleX(0);transition:transform .25s;}
+.nav-links a:hover{color:var(--gold2);}
+.nav-links a:hover::after{transform:scaleX(1);}
+.nav-cta{
+  display:inline-flex;align-items:center;gap:7px;
+  background:linear-gradient(135deg,var(--red2),var(--red));
+  color:var(--cream);font-size:clamp(10px,1.4vw,12px);font-weight:700;
+  letter-spacing:2px;padding:10px clamp(14px,2vw,24px);
+  border-radius:4px;text-transform:uppercase;border:none;
+  border-top:1px solid rgba(255,200,150,.2);
+  box-shadow:0 4px 16px rgba(139,26,26,.4);
+  transition:all .25s;white-space:nowrap;
+}
+.nav-cta:hover{transform:translateY(-1px) scale(1.03);box-shadow:0 6px 24px rgba(192,57,43,.5);}
+.nav-hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;padding:4px;}
+.nav-hamburger span{display:block;width:22px;height:2px;background:var(--gold2);border-radius:2px;transition:all .3s;}
+.mobile-menu{display:none;position:fixed;inset:0;z-index:99;background:rgba(4,14,8,.98);backdrop-filter:blur(20px);flex-direction:column;align-items:center;justify-content:center;gap:28px;}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{font-family:'Playfair Display',serif;font-size:clamp(22px,6vw,30px);color:var(--white);letter-spacing:2px;transition:color .25s;}
+.mobile-menu a:hover{color:var(--gold2);}
+.mobile-close{position:absolute;top:24px;right:24px;background:none;border:none;color:var(--gold);font-size:28px;cursor:pointer;}
+
+/* ══ PAGE ══ */
+.page{position:relative;z-index:10;max-width:1120px;margin:0 auto;padding:0 clamp(16px,4vw,48px) 80px;}
+
+/* ══ ORNAMENTAL FRAME — like poster boxes ══ */
+.orn-frame{
+  position:relative;
+  border:1px solid var(--border-g);
+  border-radius:var(--radius2);
+  background:rgba(10,35,18,.7);
+  backdrop-filter:blur(8px);
+}
+.orn-frame::before,.orn-frame::after{
+  content:'✦';
+  position:absolute;
+  color:var(--gold);
+  font-size:10px;
+  line-height:1;
+}
+.orn-frame::before{top:-6px;left:50%;transform:translateX(-50%);background:var(--bg);padding:0 8px;}
+.orn-frame::after{bottom:-6px;left:50%;transform:translateX(-50%);background:var(--bg);padding:0 8px;}
+/* Corner dots */
+.orn-frame .corner{position:absolute;width:8px;height:8px;border-radius:50%;background:var(--gold);opacity:.7;}
+.orn-frame .corner.tl{top:-4px;left:-4px;}
+.orn-frame .corner.tr{top:-4px;right:-4px;}
+.orn-frame .corner.bl{bottom:-4px;left:-4px;}
+.orn-frame .corner.br{bottom:-4px;right:-4px;}
+
+/* ══ SECTION HEADERS ══ */
+.section-header{text-align:center;margin-bottom:clamp(32px,5vw,56px);}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:14px;
+  font-size:clamp(9px,1.8vw,11px);font-weight:700;letter-spacing:5px;
+  color:var(--gold2);text-transform:uppercase;margin-bottom:14px;
+}
+.eyebrow::before,.eyebrow::after{content:'';width:40px;height:1px;background:linear-gradient(90deg,transparent,var(--gold2));}
+.eyebrow::after{background:linear-gradient(90deg,var(--gold2),transparent);}
+.section-header h2{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(28px,5vw,46px);font-weight:900;line-height:1.1;
+  text-shadow:0 2px 20px rgba(201,168,76,.15);
+}
+.section-header h2 em{color:var(--gold2);font-style:italic;}
+.section-header p{font-size:clamp(13px,2vw,16px);color:var(--muted);max-width:580px;margin:14px auto 0;line-height:1.75;}
+
+/* ══ ORNAMENTAL DIVIDER ══ */
+.divider{
+  margin:clamp(50px,7vw,90px) 0;
+  display:flex;align-items:center;gap:0;
+  position:relative;
+}
+.divider-line{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),var(--gold2),var(--gold),transparent);}
+.divider-center{
+  display:flex;align-items:center;gap:8px;
+  padding:0 20px;color:var(--gold2);font-size:11px;letter-spacing:6px;
+  white-space:nowrap;
+}
+
+/* ══ HERO ══ */
+.hero{
+  min-height:calc(100vh - 72px);
+  display:flex;align-items:center;
+  padding:clamp(40px,8vw,80px) 0;
+  position:relative;
+}
+/* Hero top banner — like "IMPERIAL HERITAGE COLLECTION 2026" */
+.hero-collection-tag{
+  text-align:center;
+  font-size:clamp(9px,2vw,12px);font-weight:700;letter-spacing:5px;
+  text-transform:uppercase;color:var(--bg);
+  background:linear-gradient(90deg,var(--gold4),var(--gold2),var(--gold3),var(--gold2),var(--gold4));
+  padding:8px 24px;border-radius:4px;
+  display:inline-block;margin-bottom:28px;
+  box-shadow:0 4px 20px rgba(201,168,76,.3);
+}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,70px);align-items:center;width:100%;}
+.hero-left{order:1;}
+.hero-right{order:2;display:flex;justify-content:center;position:relative;}
+
+/* Hindi script hero */
+.hero-devanagari{
+  font-family:'Noto Serif Devanagari',serif;
+  font-size:clamp(48px,10vw,90px);font-weight:900;line-height:1;
+  background:linear-gradient(135deg,var(--gold4),var(--gold2),var(--gold3),var(--gold2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  margin-bottom:6px;
+  filter:drop-shadow(0 2px 12px rgba(201,168,76,.3));
+}
+.hero-brand-en{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(22px,5vw,38px);font-weight:700;
+  color:var(--cream);letter-spacing:6px;text-transform:uppercase;
+  margin-bottom:8px;
+}
+.hero-tagline-hi{
+  font-family:'Noto Serif Devanagari',serif;
+  font-size:clamp(13px,2.5vw,17px);color:var(--muted);
+  letter-spacing:1px;margin-bottom:20px;font-weight:400;
+}
+.hero-desc{font-size:clamp(13px,2vw,15px);color:var(--muted);line-height:1.85;margin-bottom:28px;max-width:500px;}
+
+/* Ornamental price box */
+.price-orn{
+  display:inline-flex;align-items:center;gap:14px;flex-wrap:wrap;
+  border:1px solid var(--border-g2);border-radius:6px;
+  padding:14px 26px;margin-bottom:30px;
+  background:linear-gradient(135deg,rgba(201,168,76,.1),rgba(201,168,76,.03));
+  position:relative;
+}
+.price-orn::before,.price-orn::after{content:'❧';color:var(--gold);font-size:16px;}
+.price-orn-val{font-family:'Playfair Display',serif;font-size:clamp(34px,6vw,46px);font-weight:900;color:var(--gold2);line-height:1;}
+.price-orn-details{display:flex;flex-direction:column;gap:3px;}
+.price-orn-size{font-size:11px;color:var(--muted2);letter-spacing:2px;text-transform:uppercase;}
+.price-orn-tax{font-size:11px;color:var(--gold);letter-spacing:1px;}
+
+/* Buttons */
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:32px;}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:clamp(12px,2vw,15px) clamp(20px,4vw,30px);
+  border-radius:4px;font-size:clamp(12px,1.8vw,14px);font-weight:700;
+  letter-spacing:2px;text-transform:uppercase;
+  transition:all .3s;cursor:pointer;border:none;
+  white-space:nowrap;-webkit-tap-highlight-color:transparent;
+}
+.btn-order{
+  background:linear-gradient(135deg,var(--red2),var(--red));
+  color:var(--cream);
+  border-top:1px solid rgba(255,200,150,.2);
+  box-shadow:0 4px 24px rgba(139,26,26,.4);
+  animation:btnPulse 3s ease-in-out infinite;
+}
+@keyframes btnPulse{0%,100%{box-shadow:0 4px 24px rgba(139,26,26,.4);}50%{box-shadow:0 4px 40px rgba(192,57,43,.7);}}
+.btn-order:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(192,57,43,.6);}
+.btn-wa{background:linear-gradient(135deg,#25d366,#128c5c);color:white;box-shadow:0 4px 18px rgba(37,211,102,.2);}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(37,211,102,.4);}
+.btn-gold{background:linear-gradient(135deg,var(--gold4),var(--gold2));color:var(--bg);box-shadow:0 4px 18px rgba(201,168,76,.3);}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(201,168,76,.5);}
+
+/* Trust row */
+.trust-row{display:flex;gap:clamp(14px,3vw,28px);flex-wrap:wrap;}
+.trust-item{display:flex;align-items:center;gap:7px;font-size:clamp(11px,1.8vw,13px);color:var(--muted);}
+.trust-item .ti-icon{
+  width:28px;height:28px;border-radius:50%;
+  background:linear-gradient(135deg,rgba(201,168,76,.2),rgba(201,168,76,.05));
+  border:1px solid var(--border-g);
+  display:flex;align-items:center;justify-content:center;font-size:13px;
+}
+
+/* Hero product image */
+.hero-img-wrap{position:relative;width:clamp(240px,38vw,400px);}
+.img-glow{
+  position:absolute;inset:-10%;border-radius:50%;
+  background:radial-gradient(ellipse 70% 80% at 50% 60%,rgba(45,122,72,.4),transparent 70%);
+  filter:blur(50px);
+  animation:glowPulse 4s ease-in-out infinite;
+}
+@keyframes glowPulse{0%,100%{opacity:.6;transform:scale(1);}50%{opacity:1;transform:scale(1.1);}}
+.img-ring1{
+  position:absolute;inset:-4%;border-radius:50%;
+  border:1px solid rgba(201,168,76,.2);
+  animation:ringAnim 4s ease-in-out infinite;
+}
+.img-ring2{
+  position:absolute;inset:-12%;border-radius:50%;
+  border:1px solid rgba(201,168,76,.1);
+  animation:ringAnim 4s ease-in-out .8s infinite reverse;
+}
+@keyframes ringAnim{0%,100%{transform:scale(1);}50%{transform:scale(1.03);}}
+.hero-product-img{
+  position:relative;z-index:2;width:100%;
+  animation:floatAnim 5s ease-in-out infinite;
+  filter:drop-shadow(0 20px 50px rgba(0,0,0,.6));
+  border-radius:16px;
+}
+@keyframes floatAnim{0%,100%{transform:translateY(0);}50%{transform:translateY(-16px);}}
+.img-shadow{
+  position:absolute;bottom:-16px;left:50%;transform:translateX(-50%);
+  width:50%;height:18px;border-radius:50%;
+  background:rgba(0,0,0,.5);filter:blur(14px);
+  animation:shadowAnim 5s ease-in-out infinite;
+}
+@keyframes shadowAnim{0%,100%{width:50%;opacity:.8;}50%{width:35%;opacity:.4;}}
+/* Placeholder */
+.img-placeholder{
+  width:100%;aspect-ratio:3/5;
+  background:linear-gradient(160deg,rgba(45,90,50,.3),rgba(10,28,14,.7));
+  border-radius:16px;border:1px dashed var(--border-g);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:10px;text-align:center;padding:20px;
+}
+.img-placeholder .ph-icon{font-size:36px;opacity:.5;}
+.img-placeholder .ph-text{font-size:12px;color:var(--muted);line-height:1.6;}
+.img-placeholder .ph-file{font-size:11px;color:var(--gold);letter-spacing:1px;}
+
+/* ══ STATS BAR ══ */
+.stats-bar{
+  position:relative;overflow:hidden;
+  border-radius:var(--radius2);
+  padding:clamp(22px,4vw,36px);
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:clamp(16px,3vw,24px);
+  margin:clamp(40px,6vw,70px) 0;
+  background:linear-gradient(135deg,rgba(30,92,53,.25),rgba(12,36,20,.4));
+  border:1px solid var(--border-g);
+}
+.stats-bar::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold4),var(--gold2),var(--gold3),var(--gold2),var(--gold4),transparent);}
+.stats-bar::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold4),var(--gold2),var(--gold3),var(--gold2),var(--gold4),transparent);}
+.stat-item{text-align:center;position:relative;}
+.stat-item+.stat-item::before{content:'';position:absolute;left:0;top:10%;height:80%;width:1px;background:linear-gradient(180deg,transparent,var(--border-g),transparent);}
+.stat-num{font-family:'Playfair Display',serif;font-size:clamp(30px,5vw,44px);font-weight:900;color:var(--gold2);display:block;line-height:1;margin-bottom:6px;}
+.stat-label{font-size:clamp(10px,1.8vw,11px);color:var(--muted);letter-spacing:3px;text-transform:uppercase;}
+
+/* ══ GALLERY ══ */
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:clamp(14px,3vw,22px);}
+.gallery-item{
+  border-radius:var(--radius2);overflow:hidden;
+  border:1px solid var(--border-g);
+  position:relative;
+  transition:all .35s;
+  cursor:pointer;
+}
+.gallery-item::before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,transparent 50%,rgba(0,0,0,.5));z-index:1;opacity:0;transition:opacity .35s;}
+.gallery-item:hover{transform:translateY(-6px) scale(1.01);box-shadow:0 20px 50px rgba(0,0,0,.5);border-color:var(--gold2);}
+.gallery-item:hover::before{opacity:1;}
+.gallery-item img{width:100%;display:block;transition:transform .5s;}
+.gallery-item:hover img{transform:scale(1.04);}
+.gallery-label{
+  position:absolute;bottom:0;left:0;right:0;z-index:2;
+  padding:12px 16px;
+  background:linear-gradient(to top,rgba(4,14,7,.9),transparent);
+  font-size:11px;letter-spacing:2px;color:var(--gold2);
+  text-transform:uppercase;font-weight:600;
+  transform:translateY(100%);transition:transform .35s;
+}
+.gallery-item:hover .gallery-label{transform:translateY(0);}
+
+/* ══ BENEFITS ══ */
+.benefits-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(14px,2.5vw,22px);}
+.benefit-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius2);
+  padding:clamp(22px,4vw,30px);
+  transition:all .35s;position:relative;overflow:hidden;
+}
+.benefit-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity .35s;}
+.benefit-card:hover{background:var(--surface2);border-color:var(--border-g);transform:translateY(-5px);box-shadow:0 16px 40px rgba(0,0,0,.4);}
+.benefit-card:hover::before{opacity:1;}
+.bc-icon{
+  width:54px;height:54px;border-radius:12px;
+  background:linear-gradient(135deg,rgba(201,168,76,.18),rgba(201,168,76,.05));
+  border:1px solid var(--border-g);
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;margin-bottom:16px;transition:transform .35s;
+}
+.benefit-card:hover .bc-icon{transform:scale(1.1) rotate(-4deg);}
+.bc-title{font-size:clamp(15px,2.2vw,17px);font-weight:600;color:var(--gold3);margin-bottom:8px;}
+.bc-desc{font-size:clamp(12px,1.8vw,13px);color:var(--muted);line-height:1.7;}
+
+/* ══ INGREDIENTS ══ */
+.ingredients-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:clamp(12px,2.5vw,20px);}
+.ing-card{
+  background:linear-gradient(160deg,rgba(30,92,53,.2),rgba(12,36,20,.3));
+  border:1px solid var(--border-g);
+  border-radius:var(--radius2);
+  padding:clamp(20px,3.5vw,28px);text-align:center;
+  transition:all .3s;position:relative;overflow:hidden;
+}
+.ing-card::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,168,76,.08),transparent 60%);opacity:0;transition:opacity .35s;}
+.ing-card:hover{transform:translateY(-5px);border-color:var(--gold2);box-shadow:0 16px 40px rgba(0,0,0,.4);}
+.ing-card:hover::after{opacity:1;}
+.ing-emoji{font-size:clamp(30px,4vw,40px);display:block;margin-bottom:12px;}
+.ing-name{font-family:'Playfair Display',serif;font-size:clamp(15px,2.2vw,18px);font-weight:700;color:var(--gold2);margin-bottom:4px;}
+.ing-hindi{font-family:'Noto Serif Devanagari',serif;font-size:12px;color:var(--muted2);margin-bottom:10px;letter-spacing:1px;}
+.ing-desc{font-size:clamp(11px,1.8vw,13px);color:var(--muted);line-height:1.65;}
+
+/* ══ HOW TO USE ══ */
+.how-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,60px);align-items:center;}
+.how-steps{display:flex;flex-direction:column;gap:14px;}
+.how-step{
+  display:flex;gap:16px;align-items:flex-start;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:clamp(16px,3vw,22px);
+  transition:all .3s;
+}
+.how-step:hover{background:var(--surface2);border-color:var(--border-g);}
+.how-num{
+  width:44px;height:44px;border-radius:50%;flex-shrink:0;
+  background:linear-gradient(135deg,var(--gold4),var(--gold2));
+  display:flex;align-items:center;justify-content:center;
+  font-size:16px;font-weight:700;color:var(--bg);
+  box-shadow:0 4px 14px rgba(201,168,76,.35);flex-shrink:0;
+}
+.how-title{font-size:clamp(13px,2vw,15px);font-weight:600;color:var(--gold3);margin-bottom:4px;}
+.how-desc{font-size:clamp(12px,1.8vw,13px);color:var(--muted);line-height:1.6;}
+.how-note{
+  background:linear-gradient(135deg,rgba(139,26,26,.12),rgba(139,26,26,.05));
+  border:1px solid rgba(139,26,26,.3);border-left:3px solid var(--red2);
+  border-radius:var(--radius);padding:16px 20px;margin-top:16px;
+  font-size:clamp(12px,1.8vw,13px);color:var(--muted);line-height:1.7;
+}
+.how-note strong{color:var(--cream);}
+.how-img-wrap{position:relative;display:flex;justify-content:center;}
+.how-img{width:clamp(220px,38vw,360px);border-radius:18px;filter:drop-shadow(0 16px 40px rgba(0,0,0,.5));}
+
+/* ══ PRODUCTS ══ */
+.products-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:clamp(18px,3vw,28px);}
+.product-card{
+  background:linear-gradient(160deg,rgba(18,46,26,.8),rgba(8,22,12,.9));
+  border:1px solid var(--border-g);
+  border-radius:var(--radius2);overflow:hidden;
+  transition:all .35s;
+  position:relative;
+}
+.product-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),var(--gold2),var(--gold),transparent);}
+.product-card:hover{transform:translateY(-8px);box-shadow:var(--shadow2);border-color:var(--gold2);}
+.pc-visual{
+  position:relative;
+  background:linear-gradient(160deg,rgba(30,92,53,.35),rgba(10,30,15,.8));
+  padding:clamp(28px,5vw,44px) clamp(24px,4vw,40px);
+  display:flex;align-items:center;justify-content:center;
+  overflow:hidden;min-height:260px;
+}
+.pc-visual::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 80% at 50% 50%,rgba(45,122,72,.15),transparent);animation:pcGlow 5s ease-in-out infinite;}
+@keyframes pcGlow{0%,100%{opacity:.6;}50%{opacity:1;}}
+.pc-img{position:relative;z-index:2;width:clamp(100px,16vw,150px);border-radius:12px;animation:floatAnim 5s ease-in-out infinite;filter:drop-shadow(0 12px 28px rgba(0,0,0,.5));}
+.pc-badge{position:absolute;top:12px;right:12px;font-size:10px;font-weight:700;letter-spacing:1.5px;padding:5px 13px;border-radius:3px;text-transform:uppercase;z-index:3;border-top:1px solid rgba(255,255,255,.15);}
+.badge-best{background:linear-gradient(135deg,var(--red2),var(--red));color:var(--cream);}
+.badge-soon{background:rgba(100,70,150,.85);color:white;}
+.badge-new{background:linear-gradient(135deg,var(--gold4),var(--gold2));color:var(--bg);}
+.pc-body{padding:clamp(18px,3vw,26px);}
+.pc-tag{display:inline-block;font-size:10px;font-weight:600;letter-spacing:2px;color:var(--gold);text-transform:uppercase;margin-bottom:8px;}
+.pc-name{font-family:'Playfair Display',serif;font-size:clamp(17px,2.5vw,21px);font-weight:700;color:var(--cream);margin-bottom:8px;line-height:1.2;}
+.pc-desc{font-size:clamp(12px,1.8vw,13px);color:var(--muted);line-height:1.65;margin-bottom:16px;}
+.pc-uses{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;}
+.pc-use{font-size:10px;font-weight:600;padding:4px 11px;border-radius:3px;background:rgba(201,168,76,.08);border:1px solid var(--border-g);color:var(--gold2);}
+.pc-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;}
+.pc-price{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,30px);font-weight:900;color:var(--gold2);}
+.pc-size{font-size:11px;color:var(--muted2);letter-spacing:1px;display:block;margin-top:2px;}
+
+/* ══ REVIEWS ══ */
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:clamp(14px,2.5vw,22px);}
+.review-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius2);padding:clamp(22px,3.5vw,30px);
+  transition:all .3s;position:relative;overflow:hidden;
+}
+.review-card::before{content:'"';position:absolute;top:8px;right:16px;font-size:80px;color:rgba(201,168,76,.05);font-family:'Playfair Display',serif;line-height:1;}
+.review-card:hover{background:var(--surface2);transform:translateY(-4px);border-color:var(--border-g);}
+.stars{display:flex;gap:3px;margin-bottom:14px;}
+.star{width:14px;height:14px;background:var(--gold2);clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);}
+.review-text{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(14px,2.2vw,16px);color:rgba(248,242,230,.85);line-height:1.75;margin-bottom:18px;}
+.reviewer{display:flex;align-items:center;gap:12px;}
+.rev-av{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--gold4),var(--gold2));display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:var(--bg);flex-shrink:0;box-shadow:0 4px 12px rgba(201,168,76,.3);}
+.rev-name{font-size:14px;font-weight:600;color:var(--cream);}
+.rev-loc{font-size:11px;color:var(--muted2);margin-top:2px;}
+.rev-verified{font-size:10px;color:var(--green3);margin-top:2px;}
+
+/* ══ ORDER FORM ══ */
+.order-wrap{
+  position:relative;overflow:hidden;
+  background:linear-gradient(160deg,rgba(18,46,26,.85),rgba(8,22,12,.9));
+  border:1px solid var(--border-g2);border-radius:var(--radius2);
+  padding:clamp(28px,5vw,50px);
+}
+.order-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold4),var(--gold2),var(--gold3),var(--gold2),var(--gold4));}
+.order-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,60px);align-items:start;}
+.order-title{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,30px);font-weight:900;color:var(--cream);margin-bottom:10px;line-height:1.2;}
+.order-subtitle{font-size:clamp(12px,1.8vw,15px);color:var(--muted);line-height:1.75;margin-bottom:20px;}
+.order-opts{display:flex;flex-direction:column;gap:10px;margin-bottom:22px;}
+.order-opt{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  background:rgba(255,255,255,.03);border:1px solid var(--border);
+  border-radius:var(--radius);padding:14px 18px;cursor:pointer;transition:all .25s;
+}
+.order-opt:hover,.order-opt.selected{background:rgba(201,168,76,.08);border-color:var(--border-g2);}
+.order-opt-left{display:flex;align-items:center;gap:12px;}
+.order-opt-icon{font-size:20px;}
+.order-opt-name{font-size:14px;font-weight:600;color:var(--cream);}
+.order-opt-size{font-size:11px;color:var(--muted2);margin-top:1px;}
+.order-opt-price{font-family:'Playfair Display',serif;font-size:20px;font-weight:900;color:var(--gold2);white-space:nowrap;}
+.how-order{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:var(--radius);padding:18px;font-size:13px;color:var(--muted);line-height:1.75;}
+.how-order strong{color:var(--gold2);display:block;margin-bottom:8px;}
+.form-title{font-size:clamp(16px,2.5vw,20px);font-weight:700;color:var(--cream);margin-bottom:20px;display:flex;align-items:center;gap:10px;}
+.form-title::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--border-g),transparent);}
+.form-group{margin-bottom:16px;}
+.form-group label{display:block;font-size:11px;font-weight:700;letter-spacing:2.5px;color:var(--gold);text-transform:uppercase;margin-bottom:7px;}
+.form-group input,
+.form-group textarea,
+.form-group select{
+  width:100%;background:rgba(255,255,255,.04);
+  border:1px solid var(--border);border-radius:6px;
+  color:var(--white);font-family:'Outfit',sans-serif;font-size:14px;
+  padding:12px 16px;transition:border-color .25s,background .25s;outline:none;-webkit-appearance:none;appearance:none;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{border-color:var(--border-g2);background:rgba(201,168,76,.05);}
+.form-group input::placeholder,.form-group textarea::placeholder{color:var(--muted2);}
+.form-group textarea{resize:vertical;min-height:90px;}
+.form-group select option{background:var(--bg2);color:var(--white);}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.form-submit{width:100%;padding:16px;font-size:14px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-top:4px;}
+.form-success{display:none;background:rgba(45,122,72,.15);border:1px solid rgba(106,184,130,.4);border-radius:var(--radius);padding:20px;text-align:center;font-size:14px;color:var(--green3);line-height:1.6;margin-top:12px;}
+
+/* ══ ABOUT ══ */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,64px);align-items:center;}
+.about-text p{font-size:clamp(13px,2vw,15px);color:var(--muted);line-height:1.9;margin-bottom:16px;}
+.about-text strong{color:var(--gold3);}
+.about-highlights{display:flex;flex-direction:column;gap:10px;margin-top:22px;}
+.ah-item{display:flex;align-items:flex-start;gap:12px;background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--gold4);border-radius:var(--radius);padding:14px 18px;}
+.ah-dot{color:var(--gold2);font-size:14px;flex-shrink:0;margin-top:1px;}
+.ah-text{font-size:clamp(12px,1.8vw,14px);color:var(--muted);line-height:1.6;}
+.ah-text strong{color:var(--cream);}
+/* About brand card */
+.about-card{
+  background:linear-gradient(160deg,rgba(18,46,26,.85),rgba(8,22,12,.9));
+  border:1px solid var(--border-g2);border-radius:var(--radius2);
+  padding:clamp(24px,4vw,36px);position:relative;overflow:hidden;
+  margin-bottom:18px;
+}
+.about-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold4),var(--gold2),var(--gold3),var(--gold2),var(--gold4));}
+.about-logo{font-family:'Playfair Display',serif;font-size:clamp(20px,3vw,26px);font-weight:900;color:var(--gold2);}
+.about-logo-sub{font-size:10px;letter-spacing:4px;color:var(--muted2);text-transform:uppercase;margin:4px 0 20px;}
+.about-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.as-item{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:10px;padding:14px 10px;text-align:center;}
+.as-val{font-family:'Playfair Display',serif;font-size:clamp(18px,3vw,24px);font-weight:900;color:var(--green3);display:block;}
+.as-label{font-size:9px;letter-spacing:2px;color:var(--muted2);text-transform:uppercase;margin-top:2px;}
+.addr-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:clamp(16px,3vw,22px);display:flex;gap:14px;align-items:flex-start;}
+.addr-icon{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--gold4),var(--gold2));display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;}
+.addr-label{font-size:10px;letter-spacing:3px;color:var(--gold);text-transform:uppercase;margin-bottom:5px;}
+.addr-val{font-size:clamp(12px,1.8vw,14px);color:var(--muted);line-height:1.7;}
+
+/* ══ FAQ ══ */
+.faq-wrap{max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:10px;}
+.faq-item{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:border-color .3s;}
+.faq-item.open{border-color:var(--border-g);}
+.faq-q{width:100%;background:none;border:none;color:var(--white);font-family:'Outfit',sans-serif;font-size:clamp(13px,2vw,15px);font-weight:500;padding:clamp(16px,3vw,20px) clamp(18px,3vw,26px);text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;transition:background .25s;}
+.faq-q:hover{background:rgba(201,168,76,.04);}
+.faq-icon{width:28px;height:28px;border-radius:50%;flex-shrink:0;background:rgba(201,168,76,.1);border:1px solid var(--border-g);display:flex;align-items:center;justify-content:center;color:var(--gold2);font-size:16px;transition:all .35s;}
+.faq-item.open .faq-icon{background:rgba(201,168,76,.2);transform:rotate(45deg);}
+.faq-body{max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.25,.8,.25,1);}
+.faq-body-inner{padding:0 clamp(18px,3vw,26px) clamp(16px,3vw,20px);font-size:clamp(12px,1.8vw,14px);color:var(--muted);line-height:1.8;border-top:1px solid var(--border);}
+.faq-item.open .faq-body{max-height:320px;}
+
+/* ══ CONTACT ══ */
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:clamp(12px,2.5vw,20px);margin-bottom:clamp(30px,5vw,50px);}
+.contact-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius2);padding:clamp(18px,3vw,28px);display:flex;gap:14px;align-items:flex-start;transition:all .3s;cursor:pointer;}
+.contact-card:hover{background:var(--surface2);border-color:var(--border-g);transform:translateY(-3px);}
+.cc-icon{width:50px;height:50px;border-radius:10px;flex-shrink:0;background:linear-gradient(135deg,rgba(201,168,76,.2),rgba(201,168,76,.05));border:1px solid var(--border-g);display:flex;align-items:center;justify-content:center;font-size:22px;}
+.cc-label{font-size:10px;letter-spacing:3px;color:var(--gold);text-transform:uppercase;margin-bottom:5px;}
+.cc-val{font-size:clamp(12px,1.8vw,14px);color:var(--muted);line-height:1.6;}
+
+/* Social section — ornamental box */
+.social-section{
+  position:relative;overflow:hidden;
+  background:linear-gradient(160deg,rgba(18,46,26,.8),rgba(8,22,12,.9));
+  border:1px solid var(--border-g2);border-radius:var(--radius2);
+  padding:clamp(30px,5vw,50px);text-align:center;
+}
+.social-section::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold4),var(--gold2),var(--gold3),var(--gold2),var(--gold4));}
+.social-section::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold4),var(--gold2),var(--gold3),var(--gold2),var(--gold4));}
+.social-title{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,34px);font-weight:900;color:var(--cream);margin-bottom:8px;}
+.social-sub{font-size:clamp(12px,2vw,15px);color:var(--muted);margin-bottom:28px;}
+.social-btns{display:flex;justify-content:center;gap:clamp(12px,3vw,20px);flex-wrap:wrap;}
+.social-btn{display:inline-flex;align-items:center;gap:10px;padding:clamp(13px,2.5vw,16px) clamp(24px,4vw,36px);border-radius:4px;font-size:clamp(12px,2vw,14px);font-weight:700;letter-spacing:1.5px;transition:all .3s;-webkit-tap-highlight-color:transparent;border:none;cursor:pointer;text-transform:uppercase;}
+.social-btn svg{width:20px;height:20px;flex-shrink:0;}
+.sb-insta{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:white;}
+.sb-insta:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 8px 28px rgba(220,39,67,.4);}
+.sb-wa{background:linear-gradient(135deg,#25d366,#128c5c);color:white;}
+.sb-wa:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 8px 28px rgba(37,211,102,.35);}
+
+/* ══ FLOATING CTA ══ */
+.float-cta{display:none;position:fixed;bottom:20px;right:16px;z-index:90;flex-direction:column;gap:10px;align-items:flex-end;}
+@media(max-width:768px){.float-cta{display:flex;}}
+.float-btn{display:flex;align-items:center;gap:8px;padding:12px 20px;border-radius:4px;font-size:13px;font-weight:700;color:white;box-shadow:0 4px 20px rgba(0,0,0,.5);transition:all .3s;-webkit-tap-highlight-color:transparent;border:none;cursor:pointer;letter-spacing:1px;}
+.float-btn.fb-order{background:linear-gradient(135deg,var(--red2),var(--red));}
+.float-btn.fb-wa{background:linear-gradient(135deg,#25d366,#128c5c);}
+.float-btn:hover{transform:scale(1.05);}
+.float-btn svg{width:18px;height:18px;}
+
+/* ══ FOOTER ══ */
+footer{
+  position:relative;z-index:10;
+  background:rgba(2,8,4,.98);
+  border-top:1px solid var(--border-g);
+  padding:clamp(28px,4vw,44px) clamp(16px,4vw,48px) clamp(18px,3vw,28px);
+}
+footer::before{content:'';position:absolute;top:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,var(--gold2),transparent);opacity:.5;}
+.footer-inner{max-width:1120px;margin:0 auto;}
+.footer-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:24px;margin-bottom:clamp(22px,3vw,36px);padding-bottom:clamp(22px,3vw,36px);border-bottom:1px solid var(--border);}
+.footer-logo{font-family:'Noto Serif Devanagari',serif;font-size:clamp(18px,3vw,24px);font-weight:900;background:linear-gradient(135deg,var(--gold2),var(--gold3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:4px;}
+.footer-logo-en{font-family:'Playfair Display',serif;font-size:clamp(13px,2vw,16px);font-weight:700;color:var(--gold);letter-spacing:2px;margin-bottom:4px;}
+.footer-logo-sub{font-size:10px;letter-spacing:3px;color:var(--muted2);text-transform:uppercase;margin-bottom:12px;}
+.footer-tagline{font-size:clamp(11px,1.8vw,13px);color:var(--muted2);max-width:230px;line-height:1.65;}
+.footer-links{display:flex;flex-wrap:wrap;gap:clamp(10px,2vw,22px);}
+.footer-links a{font-size:clamp(11px,1.8vw,12px);color:var(--muted);transition:color .2s;letter-spacing:.5px;}
+.footer-links a:hover{color:var(--gold2);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;}
+.footer-copy{font-size:clamp(10px,1.5vw,11px);color:var(--muted2);}
+.footer-love{font-size:11px;color:var(--muted2);}
+.footer-love span{color:#e74c3c;}
+.footer-seal{display:inline-flex;align-items:center;gap:6px;font-size:10px;letter-spacing:2px;color:var(--gold);text-transform:uppercase;border:1px solid var(--border-g);border-radius:3px;padding:4px 12px;}
+
+/* ══ REVEAL ══ */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.25,.8,.25,1),transform .7s cubic-bezier(.25,.8,.25,1);}
+.reveal.visible{opacity:1;transform:translateY(0);}
+.reveal-delay-1{transition-delay:.1s;}
+.reveal-delay-2{transition-delay:.2s;}
+.reveal-delay-3{transition-delay:.3s;}
+.reveal-delay-4{transition-delay:.4s;}
+
+/* ══ RESPONSIVE ══ */
+@media(max-width:900px){
+  .hero-grid,.about-grid,.how-grid,.order-grid{grid-template-columns:1fr;}
+  .hero-left{order:2;}.hero-right{order:1;}
+  .hero-img-wrap{width:clamp(200px,60vw,300px);margin:0 auto;}
+  .nav-links{display:none;}
+  .nav-hamburger{display:flex;}
+}
+@media(max-width:480px){
+  .hero-btns .btn{width:100%;justify-content:center;}
+  .price-orn{width:100%;justify-content:center;}
+  .social-btns .social-btn{width:100%;justify-content:center;}
+  .footer-top{flex-direction:column;}
+  .form-row{grid-template-columns:1fr;}
+  .stat-item+.stat-item::before{display:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- ══ BACKGROUND ══ -->
+<div class="progress-bar" id="progressBar"></div>
+<div class="bg-imperial"></div>
+<div class="bg-rays"></div>
+
+<!-- Mandala SVG watermark -->
+<svg class="bg-mandala" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="200" cy="200" r="195" stroke="#c9a84c" stroke-width=".5" stroke-dasharray="4 8"/>
+  <circle cx="200" cy="200" r="160" stroke="#c9a84c" stroke-width=".5"/>
+  <circle cx="200" cy="200" r="120" stroke="#c9a84c" stroke-width=".5" stroke-dasharray="2 6"/>
+  <circle cx="200" cy="200" r="80" stroke="#c9a84c" stroke-width=".5"/>
+  <circle cx="200" cy="200" r="40" stroke="#c9a84c" stroke-width=".5" stroke-dasharray="4 4"/>
+  <circle cx="200" cy="200" r="8" fill="#c9a84c"/>
+  <g stroke="#c9a84c" stroke-width=".5" opacity=".7">
+    <line x1="200" y1="5" x2="200" y2="395"/>
+    <line x1="5" y1="200" x2="395" y2="200"/>
+    <line x1="60" y1="60" x2="340" y2="340"/>
+    <line x1="340" y1="60" x2="60" y2="340"/>
+    <line x1="7" y1="130" x2="393" y2="270"/>
+    <line x1="7" y1="270" x2="393" y2="130"/>
+    <line x1="130" y1="7" x2="270" y2="393"/>
+    <line x1="270" y1="7" x2="130" y2="393"/>
+  </g>
+  <g fill="none" stroke="#c9a84c" stroke-width=".5">
+    <path d="M200 40 C220 80 220 80 200 120 C180 80 180 80 200 40Z"/>
+    <path d="M200 280 C220 320 220 320 200 360 C180 320 180 320 200 280Z"/>
+    <path d="M40 200 C80 220 80 220 120 200 C80 180 80 180 40 200Z"/>
+    <path d="M280 200 C320 220 320 220 360 200 C320 180 320 180 280 200Z"/>
+    <path d="M88 88 C108 120 108 120 88 152 C68 120 68 120 88 88Z" transform="rotate(45 88 88)"/>
+    <path d="M312 88 C332 120 332 120 312 152 C292 120 292 120 312 88Z" transform="rotate(-45 312 88)"/>
+    <path d="M88 312 C108 344 108 344 88 376 C68 344 68 344 88 312Z" transform="rotate(-45 88 312)"/>
+    <path d="M312 312 C332 344 332 344 312 376 C292 344 292 344 312 312Z" transform="rotate(45 312 312)"/>
+  </g>
+</svg>
+
+<!-- Paisley corner SVGs -->
+<svg class="paisley tl" viewBox="0 0 300 300" fill="none"><path d="M0 0 Q100 50 80 150 Q60 250 180 280 Q60 300 0 300Z" fill="#c9a84c"/><path d="M20 20 Q110 70 90 160 Q70 250 180 270" stroke="#e8c97a" stroke-width="1" fill="none"/><circle cx="60" cy="80" r="8" fill="#e8c97a"/><circle cx="100" cy="160" r="6" fill="#e8c97a"/><circle cx="150" cy="240" r="5" fill="#e8c97a"/><path d="M0 0 L60 0 Q90 30 60 60 Q30 90 0 60Z" fill="#e8c97a" opacity=".4"/></svg>
+<svg class="paisley tr" viewBox="0 0 300 300" fill="none"><path d="M0 0 Q100 50 80 150 Q60 250 180 280 Q60 300 0 300Z" fill="#c9a84c"/><path d="M20 20 Q110 70 90 160 Q70 250 180 270" stroke="#e8c97a" stroke-width="1" fill="none"/><circle cx="60" cy="80" r="8" fill="#e8c97a"/><circle cx="100" cy="160" r="6" fill="#e8c97a"/><circle cx="150" cy="240" r="5" fill="#e8c97a"/><path d="M0 0 L60 0 Q90 30 60 60 Q30 90 0 60Z" fill="#e8c97a" opacity=".4"/></svg>
+<svg class="paisley bl" viewBox="0 0 300 300" fill="none"><path d="M0 0 Q100 50 80 150 Q60 250 180 280 Q60 300 0 300Z" fill="#c9a84c"/><path d="M20 20 Q110 70 90 160 Q70 250 180 270" stroke="#e8c97a" stroke-width="1" fill="none"/><circle cx="60" cy="80" r="8" fill="#e8c97a"/><circle cx="100" cy="160" r="6" fill="#e8c97a"/></svg>
+<svg class="paisley br" viewBox="0 0 300 300" fill="none"><path d="M0 0 Q100 50 80 150 Q60 250 180 280 Q60 300 0 300Z" fill="#c9a84c"/><path d="M20 20 Q110 70 90 160 Q70 250 180 270" stroke="#e8c97a" stroke-width="1" fill="none"/><circle cx="60" cy="80" r="8" fill="#e8c97a"/><circle cx="100" cy="160" r="6" fill="#e8c97a"/></svg>
+
+<!-- Gold particles -->
+<div class="particles" id="particles"></div>
+
+<!-- ══ TICKER ══ -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span class="ticker-item">Imperial Heritage Collection 2026</span>
+    <span class="ticker-item">100% Pure Herbal Formula</span>
+    <span class="ticker-item">Ashwagandha · Shatavari · Safed Musli</span>
+    <span class="ticker-item">Builds Body Strength &amp; Stamina</span>
+    <span class="ticker-item">Traditional Ayurvedic Wisdom</span>
+    <span class="ticker-item">No Artificial Chemicals</span>
+    <span class="ticker-item">Made in Bundi, Rajasthan</span>
+    <span class="ticker-item">MRP ₹500 · 500ml · 100% Natural Seal</span>
+    <span class="ticker-item">Imperial Heritage Collection 2026</span>
+    <span class="ticker-item">100% Pure Herbal Formula</span>
+    <span class="ticker-item">Ashwagandha · Shatavari · Safed Musli</span>
+    <span class="ticker-item">Builds Body Strength &amp; Stamina</span>
+    <span class="ticker-item">Traditional Ayurvedic Wisdom</span>
+    <span class="ticker-item">No Artificial Chemicals</span>
+    <span class="ticker-item">Made in Bundi, Rajasthan</span>
+    <span class="ticker-item">MRP ₹500 · 500ml · 100% Natural Seal</span>
+  </div>
+</div>
+
+<!-- ══ NAV ══ -->
+<nav class="nav" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <span class="nav-logo-main">पंखुड़ी</span>
+      <span class="nav-logo-sub">Chouhan Food Corporation</span>
+    </a>
+    <div class="nav-links">
+      <a href="#gallery">Gallery</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#ingredients">Herbs</a>
+      <a href="#how">How to Use</a>
+      <a href="#products">Products</a>
+      <a href="#order">Order</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="nav-cta btn" onclick="document.getElementById('order').scrollIntoView({behavior:'smooth'})">Order Now ✦</button>
+    <button class="nav-hamburger" onclick="openMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" onclick="closeMenu()">✕</button>
+  <a href="#gallery" onclick="closeMenu()">Gallery</a>
+  <a href="#benefits" onclick="closeMenu()">Benefits</a>
+  <a href="#ingredients" onclick="closeMenu()">Herbs</a>
+  <a href="#how" onclick="closeMenu()">How to Use</a>
+  <a href="#products" onclick="closeMenu()">Products</a>
+  <a href="#order" onclick="closeMenu()">Order</a>
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<div class="page">
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="hero">
+  <div class="hero-grid">
+    <div class="hero-left reveal">
+      <div><span class="hero-collection-tag">✦ Imperial Heritage Collection 2026 ✦</span></div>
+      <div class="hero-devanagari">पंखुड़ी</div>
+      <div class="hero-brand-en">Pankhudi</div>
+      <div class="hero-tagline-hi">राजस्थान की राजसी शक्ति • सच्ची ताकत और ऊर्जा</div>
+      <p class="hero-desc">A premium 100% pure herbal body protein juice crafted from ancient Ayurvedic wisdom. Powered by Ashwagandha, Shatavari, Safed Musli, Kaunch Beej & Tulsi — for strength, stamina and total body wellness.</p>
+      <div class="price-orn">
+        <span class="price-orn-val">₹500</span>
+        <div class="price-orn-details">
+          <span class="price-orn-size">500 ml bottle</span>
+          <span class="price-orn-tax">Incl. of all taxes · MRP</span>
+        </div>
+      </div>
+      <div class="hero-btns">
+        <button class="btn btn-order" onclick="document.getElementById('order').scrollIntoView({behavior:'smooth'})">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          Order Now
+        </button>
+        <a class="btn btn-wa" href="https://wa.me/919829035796?text=Hi%2C%20I%20want%20to%20order%20Pankhudi%20Natural%20Body%20Protein%20Juice%20%F0%9F%8C%BF" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.849L0 24l6.335-1.498A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.67-.497-5.2-1.366l-.374-.222-3.878.916.972-3.766-.243-.387A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+      <div class="trust-row">
+        <div class="trust-item"><div class="ti-icon">✅</div><span>100% Pure Herbal</span></div>
+        <div class="trust-item"><div class="ti-icon">🚚</div><span>Pan India Delivery</span></div>
+        <div class="trust-item"><div class="ti-icon">🏭</div><span>Made in Rajasthan</span></div>
+        <div class="trust-item"><div class="ti-icon">🔒</div><span>No Chemicals</span></div>
+      </div>
+    </div>
+    <div class="hero-right reveal reveal-delay-2">
+      <div class="hero-img-wrap">
+        <div class="img-glow"></div>
+        <div class="img-ring1"></div>
+        <div class="img-ring2"></div>
+        <!--
+          ══════════════════════════════
+          SAVE IMAGE 3 as: images/pankhudi-front.jpg
+          Then uncomment the img tag below
+          ══════════════════════════════
+        -->
+        <img class="hero-product-img" src="images/pankhudi-front.jpg"
+          alt="Pankhudi Natural Body Protein Juice — Front Label"
+          loading="eager"
+          onerror="this.style.display='none';document.getElementById('hero-placeholder').style.display='flex'">
+        <div class="img-placeholder" id="hero-placeholder" style="display:none;">
+          <span class="ph-icon">📸</span>
+          <span class="ph-text">Save <strong>Image 3</strong> (front bottle)<br>as <strong>images/pankhudi-front.jpg</strong></span>
+        </div>
+        <div class="img-shadow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ STATS ══ -->
+<div class="stats-bar reveal">
+  <div class="stat-item"><span class="stat-num" data-target="100">0</span><span class="stat-label">% Pure Herbal</span></div>
+  <div class="stat-item"><span class="stat-num" data-target="5">0</span><span class="stat-label">Ayurvedic Herbs</span></div>
+  <div class="stat-item"><span class="stat-num" data-target="0">0</span><span class="stat-label">Artificial Chemicals</span></div>
+  <div class="stat-item"><span class="stat-num" data-target="500">0</span><span class="stat-label">ml Per Bottle</span></div>
+</div>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; पंखुड़ी &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ GALLERY ══ -->
+<section id="gallery">
+  <div class="section-header reveal">
+    <div class="eyebrow">Product Gallery</div>
+    <h2>The Real <em>Pankhudi</em></h2>
+    <p>Our authentic premium Ayurvedic formula — exactly as it comes, straight from Bundi, Rajasthan to your doorstep.</p>
+  </div>
+  <div class="gallery-grid reveal">
+    <!-- Image 1: Save as images/pankhudi-poster-2026.jpg -->
+    <div class="gallery-item">
+      <img src="images/pankhudi-poster-2026.jpg" alt="Pankhudi Imperial Heritage Collection 2026"
+        onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\' style=\'aspect-ratio:3/4;\'><span class=\'ph-icon\'>📸</span><span class=\'ph-text\'>Save Image 1 as<br><strong>images/pankhudi-poster-2026.jpg</strong></span></div>'">
+      <div class="gallery-label">Imperial Heritage 2026</div>
+    </div>
+    <!-- Image 2: Save as images/pankhudi-poster-2025.jpg -->
+    <div class="gallery-item">
+      <img src="images/pankhudi-poster-2025.jpg" alt="Pankhudi Premium Ayurvedic Wellness 2025"
+        onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\' style=\'aspect-ratio:3/4;\'><span class=\'ph-icon\'>📸</span><span class=\'ph-text\'>Save Image 2 as<br><strong>images/pankhudi-poster-2025.jpg</strong></span></div>'">
+      <div class="gallery-label">Premium Ayurvedic 2025</div>
+    </div>
+    <!-- Image 3: Save as images/pankhudi-front.jpg -->
+    <div class="gallery-item">
+      <img src="images/pankhudi-front.jpg" alt="Pankhudi Front Label Close-up"
+        onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\' style=\'aspect-ratio:3/4;\'><span class=\'ph-icon\'>📸</span><span class=\'ph-text\'>Save Image 3 as<br><strong>images/pankhudi-front.jpg</strong></span></div>'">
+      <div class="gallery-label">Front Label · 500ml</div>
+    </div>
+    <!-- Image 4: Save as images/pankhudi-back.jpg -->
+    <div class="gallery-item">
+      <img src="images/pankhudi-back.jpg" alt="Pankhudi Back Label — Ingredients & How to Use"
+        onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\' style=\'aspect-ratio:3/4;\'><span class=\'ph-icon\'>📸</span><span class=\'ph-text\'>Save Image 4 as<br><strong>images/pankhudi-back.jpg</strong></span></div>'">
+      <div class="gallery-label">Ingredients & How to Use</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ BENEFITS ══ -->
+<section id="benefits">
+  <div class="section-header reveal">
+    <div class="eyebrow">Key Benefits</div>
+    <h2>What <em>Pankhudi</em> Does For You</h2>
+    <p>A complete herbal formula that works from within — for strength, energy, immunity and total body wellness.</p>
+  </div>
+  <div class="benefits-grid">
+    <div class="benefit-card reveal reveal-delay-1"><div class="bc-icon">💪</div><div class="bc-title">Builds Body Strength & Stamina</div><div class="bc-desc">Powered by Ashwagandha and Safed Musli — helps build natural body strength, muscle stamina and physical endurance.</div></div>
+    <div class="benefit-card reveal reveal-delay-2"><div class="bc-icon">⚡</div><div class="bc-title">Natural Energy Booster</div><div class="bc-desc">Combats daily fatigue with pure herbal energy — feel active, alert and energised throughout the entire day, naturally.</div></div>
+    <div class="benefit-card reveal reveal-delay-3"><div class="bc-icon">🛡️</div><div class="bc-title">Boosts Immunity</div><div class="bc-desc">Tulsi and Shatavari work together to strengthen your immune system — keep illnesses at bay, season after season.</div></div>
+    <div class="benefit-card reveal reveal-delay-1"><div class="bc-icon">🌿</div><div class="bc-title">Traditional Herbal Nourishment</div><div class="bc-desc">Ancient Ayurvedic formula nourishes the body at a cellular level — time-tested herbs that have worked for centuries.</div></div>
+    <div class="benefit-card reveal reveal-delay-2"><div class="bc-icon">🧬</div><div class="bc-title">Supports Overall Wellness</div><div class="bc-desc">Supports stamina, digestion, metabolism and holistic body balance — a complete wellness formula in one daily dose.</div></div>
+    <div class="benefit-card reveal reveal-delay-3"><div class="bc-icon">🌱</div><div class="bc-title">Zero Artificial Chemicals</div><div class="bc-desc">No preservatives, no synthetic additives — 100% natural herbal ingredients, just as nature intended them to be.</div></div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ INGREDIENTS ══ -->
+<section id="ingredients">
+  <div class="section-header reveal">
+    <div class="eyebrow">Natural Ingredients</div>
+    <h2>5 Powerful <em>Ayurvedic Herbs</em></h2>
+    <p>Each herb is carefully selected from nature's finest — pure, potent and time-tested in Ayurvedic tradition.</p>
+  </div>
+  <div class="ingredients-grid">
+    <div class="ing-card reveal reveal-delay-1"><span class="ing-emoji">🌿</span><div class="ing-name">Ashwagandha</div><div class="ing-hindi">अश्वगंधा</div><div class="ing-desc">The king of Ayurvedic herbs. Builds natural body strength, reduces fatigue and supports muscle recovery.</div></div>
+    <div class="ing-card reveal reveal-delay-2"><span class="ing-emoji">🌾</span><div class="ing-name">Shatavari</div><div class="ing-hindi">शतावरी</div><div class="ing-desc">Enhances immunity, balances the body and promotes overall vitality, stamina and hormonal wellness.</div></div>
+    <div class="ing-card reveal reveal-delay-3"><span class="ing-emoji">🌰</span><div class="ing-name">Safed Musli</div><div class="ing-hindi">सफेद मूसली</div><div class="ing-desc">A premium adaptogen that boosts energy, improves endurance and supports natural physical strength.</div></div>
+    <div class="ing-card reveal reveal-delay-4"><span class="ing-emoji">🫘</span><div class="ing-name">Kaunch Beej</div><div class="ing-hindi">कौंच बीज</div><div class="ing-desc">Rich in natural protein — supports nerve health, builds physical stamina and improves muscle tone naturally.</div></div>
+    <div class="ing-card reveal reveal-delay-1"><span class="ing-emoji">🍃</span><div class="ing-name">Tulsi Extract</div><div class="ing-hindi">तुलसी</div><div class="ing-desc">India's sacred herb — powerful immunity booster, potent antioxidant and natural stress reliever.</div></div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ HOW TO USE ══ -->
+<section id="how">
+  <div class="section-header reveal">
+    <div class="eyebrow">How to Use</div>
+    <h2>Simple Daily <em>Routine</em></h2>
+    <p>Take Pankhudi twice daily after meals — morning and evening — for best results.</p>
+  </div>
+  <div class="how-grid">
+    <div class="how-steps reveal">
+      <div class="how-step"><div class="how-num">1</div><div><div class="how-title">Morning — After Breakfast</div><div class="how-desc">Take 20–30 ml of Pankhudi Juice after your morning meal. Mix in water if preferred.</div></div></div>
+      <div class="how-step"><div class="how-num">2</div><div><div class="how-title">Evening — After Dinner</div><div class="how-desc">Take another 20–30 ml dose after your evening meal for complete daily nourishment.</div></div></div>
+      <div class="how-step"><div class="how-num">3</div><div><div class="how-title">Shake Well Before Use</div><div class="how-desc">Always shake the bottle well before pouring — ensures all natural herbal ingredients are evenly mixed.</div></div></div>
+      <div class="how-step"><div class="how-num">4</div><div><div class="how-title">Store in Cool, Dry Place</div><div class="how-desc">Keep away from direct sunlight. Refrigerate after opening for best shelf life and freshness.</div></div></div>
+      <div class="how-note">
+        <strong>⚠️ Important:</strong> Pregnant women or people with medical conditions should consult a doctor before use. This product is a herbal wellness drink — not intended to diagnose, treat, cure or prevent any disease.
+      </div>
+    </div>
+    <div class="how-img-wrap reveal reveal-delay-2">
+      <!--
+        SAVE IMAGE 4 as: images/pankhudi-back.jpg
+      -->
+      <img class="how-img" src="images/pankhudi-back.jpg"
+        alt="Pankhudi — Ingredients and How to Use"
+        loading="lazy"
+        onerror="this.style.display='none';document.getElementById('how-placeholder').style.display='flex'">
+      <div class="img-placeholder" id="how-placeholder" style="display:none;width:clamp(220px,38vw,360px);aspect-ratio:2/3;">
+        <span class="ph-icon">📸</span>
+        <span class="ph-text">Save <strong>Image 4</strong> as<br><strong>images/pankhudi-back.jpg</strong></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ PRODUCTS ══ -->
+<section id="products">
+  <div class="section-header reveal">
+    <div class="eyebrow">Our Products</div>
+    <h2>From <em>Chouhan Food Corporation</em></h2>
+    <p>Crafted with care in Bundi, Rajasthan — for people who believe in the healing power of nature.</p>
+  </div>
+  <div class="products-grid">
+    <!-- Protein Juice -->
+    <div class="product-card reveal reveal-delay-1">
+      <div class="pc-visual">
+        <span class="pc-badge badge-best">⭐ Bestseller</span>
+        <img class="pc-img" src="images/pankhudi-front.jpg" alt="Pankhudi Natural Body Protein Juice"
+          onerror="this.style.display='none'">
+      </div>
+      <div class="pc-body">
+        <span class="pc-tag">Herbal · Protein-Rich · Ayurvedic</span>
+        <div class="pc-name">Natural Body Protein Juice</div>
+        <div class="pc-desc">5 powerful Ayurvedic herbs for strength, immunity, energy and total body wellness — the original trusted formula.</div>
+        <div class="pc-uses"><span class="pc-use">💪 Strength</span><span class="pc-use">🛡️ Immunity</span><span class="pc-use">⚡ Energy</span><span class="pc-use">🌿 100% Herbal</span></div>
+        <div class="pc-footer">
+          <div><span class="pc-price">₹500</span><span class="pc-size">500ml · Incl. all taxes</span></div>
+          <button class="btn btn-order" style="padding:10px 20px;font-size:12px;" onclick="document.getElementById('order').scrollIntoView({behavior:'smooth'})">Order ✦</button>
+        </div>
+      </div>
+    </div>
+    <!-- Masala 250g -->
+    <div class="product-card reveal reveal-delay-2">
+      <div class="pc-visual" style="background:linear-gradient(160deg,rgba(100,25,10,.35),rgba(40,8,4,.8));">
+        <span class="pc-badge badge-new">🌶 New Launch</span>
+        <img class="pc-img" src="images/masala-250g.jpg" alt="Pankhudi All In One Masala 250gm"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none;width:130px;aspect-ratio:1/1.3;border-radius:10px;">
+          <span class="ph-icon" style="font-size:22px;">🧂</span>
+          <span class="ph-text" style="font-size:10px;">masala-250g.jpg</span>
+        </div>
+      </div>
+      <div class="pc-body">
+        <span class="pc-tag" style="color:var(--gold2);">All Purpose · Special Taste</span>
+        <div class="pc-name">All In One Masala</div>
+        <div class="pc-desc">A perfectly balanced blend of premium spices — elevates every dish and drink, authentically crafted in Rajasthan.</div>
+        <div class="pc-uses"><span class="pc-use">🥛 Buttermilk</span><span class="pc-use">🍉 Watermelon</span><span class="pc-use">🥗 Salad</span><span class="pc-use">🍋 Nimbu Pani</span></div>
+        <div class="pc-footer">
+          <div><span class="pc-price" style="color:var(--gold2);">₹199</span><span class="pc-size">250 gm pack</span></div>
+          <a class="btn btn-gold" style="padding:10px 20px;font-size:12px;" href="https://wa.me/919829035796?text=Hi%2C%20I%20want%20to%20order%20Pankhudi%20All%20In%20One%20Masala%20250gm%20%40%20%E2%82%B9199" target="_blank">Order ✦</a>
+        </div>
+      </div>
+    </div>
+    <!-- Masala 100g -->
+    <div class="product-card reveal reveal-delay-3">
+      <div class="pc-visual" style="background:linear-gradient(160deg,rgba(120,70,8,.35),rgba(55,25,3,.8));">
+        <span class="pc-badge" style="background:linear-gradient(135deg,var(--gold4),var(--gold2));color:var(--bg);">🔥 Trial Pack</span>
+        <img class="pc-img" src="images/masala-100g.jpg" alt="Pankhudi All In One Masala 100gm Trial"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none;width:110px;aspect-ratio:1/1.2;border-radius:10px;">
+          <span class="ph-icon" style="font-size:20px;">🧂</span>
+          <span class="ph-text" style="font-size:10px;">masala-100g.jpg</span>
+        </div>
+      </div>
+      <div class="pc-body">
+        <span class="pc-tag" style="color:var(--gold2);">Trial Size · Try Before You Buy</span>
+        <div class="pc-name">All In One Masala <span style="font-size:14px;color:var(--muted);">— 100gm</span></div>
+        <div class="pc-desc">Perfect for first-timers — same premium quality, smaller size. Try it before committing to the full pack.</div>
+        <div class="pc-uses"><span class="pc-use">🥛 Buttermilk</span><span class="pc-use">🍉 Watermelon</span><span class="pc-use">🎁 Gift</span></div>
+        <div class="pc-footer">
+          <div><span class="pc-price" style="color:var(--gold2);">₹99</span><span class="pc-size">100 gm trial pack</span></div>
+          <a class="btn btn-gold" style="padding:10px 20px;font-size:12px;" href="https://wa.me/919829035796?text=Hi%2C%20I%20want%20to%20order%20Pankhudi%20Masala%20100gm%20Trial%20%40%20%E2%82%B999" target="_blank">Order ✦</a>
+        </div>
+      </div>
+    </div>
+    <!-- Coming Soon -->
+    <div class="product-card reveal reveal-delay-4">
+      <div class="pc-visual" style="background:linear-gradient(160deg,rgba(40,25,80,.45),rgba(12,8,24,.85));opacity:.85;">
+        <span class="pc-badge badge-soon">Coming Soon</span>
+        <div class="img-placeholder" style="width:130px;aspect-ratio:1/2;border-radius:10px;opacity:.7;">
+          <span class="ph-icon" style="font-size:22px;">⚡</span>
+          <span class="ph-text" style="font-size:10px;color:var(--muted2);">Energy Boost</span>
+        </div>
+      </div>
+      <div class="pc-body">
+        <span class="pc-tag" style="color:#a584d4;">New Formula · Peak Performance</span>
+        <div class="pc-name">Energy Boost Juice</div>
+        <div class="pc-desc">Advanced herbal formula in development — designed for peak mental and physical performance. Launching soon.</div>
+        <div class="pc-footer">
+          <div><span class="pc-price" style="color:#a584d4;">Coming Soon</span></div>
+          <a class="btn" style="background:linear-gradient(135deg,#6b4faa,#3d2870);color:white;padding:10px 20px;font-size:12px;" href="https://wa.me/919829035796?text=Please%20notify%20me%20when%20Pankhudi%20Energy%20Boost%20Juice%20launches!" target="_blank">Notify Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ REVIEWS ══ -->
+<section id="reviews">
+  <div class="section-header reveal">
+    <div class="eyebrow">Customer Love</div>
+    <h2>Real People, <em>Real Results</em></h2>
+    <p>Customers across Rajasthan and India trust Pankhudi for their daily herbal wellness routine.</p>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card reveal reveal-delay-1">
+      <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+      <div class="review-text">"After 3 weeks I feel so much more energetic and my body strength has clearly improved. Best natural herbal product I've ever used!"</div>
+      <div class="reviewer"><div class="rev-av">R</div><div><div class="rev-name">Ramesh Kumar</div><div class="rev-loc">Bundi, Rajasthan</div><div class="rev-verified">✓ Verified Purchase</div></div></div>
+    </div>
+    <div class="review-card reveal reveal-delay-2">
+      <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+      <div class="review-text">"100% natural, no side effects. My stamina has improved a lot in just 2 months. The best herbal product from Rajasthan — highly recommended!"</div>
+      <div class="reviewer"><div class="rev-av">S</div><div><div class="rev-name">Suresh Meena</div><div class="rev-loc">Kota, Rajasthan</div><div class="rev-verified">✓ Verified Purchase</div></div></div>
+    </div>
+    <div class="review-card reveal reveal-delay-3">
+      <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+      <div class="review-text">"Traditional Ayurvedic formula that genuinely works. My immunity is much stronger since I started Pankhudi. Won't stop using it!"</div>
+      <div class="reviewer"><div class="rev-av">P</div><div><div class="rev-name">Priya Sharma</div><div class="rev-loc">Jaipur, Rajasthan</div><div class="rev-verified">✓ Verified Purchase</div></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ ORDER FORM ══ -->
+<section id="order">
+  <div class="section-header reveal">
+    <div class="eyebrow">Place Your Order</div>
+    <h2>Order <em>Pankhudi</em> Today</h2>
+    <p>Fill the form and we'll contact you on WhatsApp to confirm your order and delivery details.</p>
+  </div>
+  <div class="order-wrap reveal">
+    <div class="order-grid">
+      <div>
+        <div class="order-title">Choose Your Product</div>
+        <p class="order-subtitle">Select from our range of premium natural products. We deliver across all of India — right to your doorstep.</p>
+        <div class="order-opts" id="orderOptions">
+          <div class="order-opt selected" onclick="selectProduct(this,'Pankhudi Natural Body Protein Juice 500ml - ₹500')">
+            <div class="order-opt-left"><span class="order-opt-icon">🍶</span><div><div class="order-opt-name">Natural Body Protein Juice</div><div class="order-opt-size">500 ml bottle</div></div></div>
+            <span class="order-opt-price">₹500</span>
+          </div>
+          <div class="order-opt" onclick="selectProduct(this,'Pankhudi All In One Masala 250gm - ₹199')">
+            <div class="order-opt-left"><span class="order-opt-icon">🌶</span><div><div class="order-opt-name">All In One Masala — 250 gm</div><div class="order-opt-size">Regular pack</div></div></div>
+            <span class="order-opt-price" style="color:var(--gold2);">₹199</span>
+          </div>
+          <div class="order-opt" onclick="selectProduct(this,'Pankhudi All In One Masala 100gm Trial Pack - ₹99')">
+            <div class="order-opt-left"><span class="order-opt-icon">🔥</span><div><div class="order-opt-name">All In One Masala — 100 gm</div><div class="order-opt-size">Trial pack</div></div></div>
+            <span class="order-opt-price" style="color:var(--gold2);">₹99</span>
+          </div>
+        </div>
+        <div class="how-order">
+          <strong>📦 How it works</strong>
+          1. Fill & submit the form below<br>
+          2. We WhatsApp you to confirm<br>
+          3. Dispatch via courier<br>
+          4. Delivery in 3–7 business days<br><br>
+          <span style="color:var(--green3);font-weight:600;">Cash On Delivery available</span> in most areas.
+        </div>
+      </div>
+      <div>
+        <div class="form-title">Your Details</div>
+        <form id="orderForm" onsubmit="submitOrder(event)">
+          <div class="form-row">
+            <div class="form-group"><label>Full Name *</label><input type="text" id="fname" placeholder="Your full name" required></div>
+            <div class="form-group"><label>Phone *</label><input type="tel" id="fphone" placeholder="+91 XXXXX XXXXX" required></div>
+          </div>
+          <div class="form-group"><label>Product *</label>
+            <select id="fproduct" required>
+              <option value="">— Select a product —</option>
+              <option value="Pankhudi Natural Body Protein Juice 500ml - ₹500">Natural Body Protein Juice 500ml — ₹500</option>
+              <option value="Pankhudi All In One Masala 250gm - ₹199">All In One Masala 250gm — ₹199</option>
+              <option value="Pankhudi All In One Masala 100gm Trial - ₹99">All In One Masala 100gm Trial — ₹99</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Quantity *</label>
+              <select id="fqty" required><option value="1">1 unit</option><option value="2">2 units</option><option value="3">3 units</option><option value="4">4 units</option><option value="5+">5 or more</option></select>
+            </div>
+            <div class="form-group"><label>State *</label><input type="text" id="fstate" placeholder="Your state" required></div>
+          </div>
+          <div class="form-group"><label>Full Delivery Address *</label><textarea id="faddress" placeholder="House No., Street, Area, City, Pincode" required></textarea></div>
+          <div class="form-group"><label>Message (Optional)</label><input type="text" id="fmessage" placeholder="Any special instructions?"></div>
+          <button type="submit" class="btn btn-order form-submit">📦 Confirm Order via WhatsApp</button>
+        </form>
+        <div class="form-success" id="formSuccess">✅ Redirecting to WhatsApp to confirm your order!<br><span style="color:var(--muted);font-size:12px;margin-top:6px;display:block;">We'll confirm details and dispatch shortly.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ ABOUT ══ -->
+<section id="about">
+  <div class="section-header reveal">
+    <div class="eyebrow">Our Story</div>
+    <h2>About <em>Chouhan Food Corporation</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>At Chouhan Food Corporation, we believe that true wellness begins with nature. Founded in the heart of Rajasthan, we are dedicated to bringing you the purest, most effective natural health products — crafted with love, integrity and deep respect for India's ancient Ayurvedic wisdom.</p>
+      <p>Pankhudi Natural Body Protein Juice is our flagship product — born from years of research and a genuine desire to help people live healthier, stronger and more vibrant lives. Every bottle contains five powerful Ayurvedic herbs: <strong>Ashwagandha, Shatavari, Safed Musli, Kaunch Beej and Tulsi Extract.</strong></p>
+      <p>We are proud to be a homegrown brand from <strong>Bundi, Rajasthan</strong> — manufactured and marketed by Chouhan Food Corporation. Our mission: <strong>Pure nature. Real results. For everyone.</strong></p>
+      <div class="about-highlights">
+        <div class="ah-item"><div class="ah-dot">✦</div><div class="ah-text"><strong>100% Natural Ingredients</strong> — no chemicals, no preservatives, no shortcuts, ever.</div></div>
+        <div class="ah-item"><div class="ah-dot">✦</div><div class="ah-text"><strong>Made in Rajasthan, India</strong> — proudly manufactured in Bundi with traditional expertise.</div></div>
+        <div class="ah-item"><div class="ah-dot">✦</div><div class="ah-text"><strong>Pan India Delivery</strong> — we bring nature's best to your doorstep anywhere in India.</div></div>
+        <div class="ah-item"><div class="ah-dot">✦</div><div class="ah-text"><strong>Traditional Ayurvedic Formula</strong> — time-tested herbs, modern quality standards.</div></div>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-2">
+      <div class="about-card">
+        <div class="about-logo">Chouhan Food Corporation</div>
+        <div class="about-logo-sub">Bundi, Rajasthan · India</div>
+        <div class="about-stats">
+          <div class="as-item"><span class="as-val">100%</span><span class="as-label">Natural</span></div>
+          <div class="as-item"><span class="as-val">0</span><span class="as-label">Chemicals</span></div>
+          <div class="as-item"><span class="as-val">5</span><span class="as-label">Key Herbs</span></div>
+          <div class="as-item"><span class="as-val">🇮🇳</span><span class="as-label">Made in India</span></div>
+        </div>
+      </div>
+      <div class="addr-card">
+        <div class="addr-icon">📍</div>
+        <div>
+          <div class="addr-label">Manufactured & Marketed By</div>
+          <div class="addr-val">
+            <strong style="color:var(--cream);">Chouhan Food Corporation</strong><br>
+            Bundi, Rajasthan – India<br>
+            📞 <a href="tel:+919829035796" style="color:var(--gold2);">+91 98290-35796</a><br>
+            ✉️ <a href="mailto:chouhanfoodcorporation@gmail.com" style="color:var(--gold2);">chouhanfoodcorporation@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ FAQ ══ -->
+<section id="faq">
+  <div class="section-header reveal">
+    <div class="eyebrow">FAQ</div>
+    <h2>Questions? <em>We've Got Answers.</em></h2>
+  </div>
+  <div class="faq-wrap">
+    <div class="faq-item reveal"><button class="faq-q" onclick="toggleFaq(this)">How do I take Pankhudi Juice? <span class="faq-icon">+</span></button><div class="faq-body"><div class="faq-body-inner">Take 20–30 ml of Pankhudi Juice twice daily — once after your morning meal and once after your evening meal. Shake the bottle well before each use. You can take it directly or mix with water.</div></div></div>
+    <div class="faq-item reveal"><button class="faq-q" onclick="toggleFaq(this)">What are the main ingredients? <span class="faq-icon">+</span></button><div class="faq-body"><div class="faq-body-inner">Pankhudi contains 5 Ayurvedic herbs: Ashwagandha (strength & recovery), Shatavari (immunity & vitality), Safed Musli (energy & endurance), Kaunch Beej (natural protein & stamina) and Tulsi Extract (immunity & antioxidant).</div></div></div>
+    <div class="faq-item reveal"><button class="faq-q" onclick="toggleFaq(this)">Is it safe for everyone? <span class="faq-icon">+</span></button><div class="faq-body"><div class="faq-body-inner">Pankhudi is made from 100% natural herbal ingredients and is generally safe for adults. Pregnant women or people with medical conditions should consult a doctor before use. Not intended to diagnose, treat, cure or prevent any disease.</div></div></div>
+    <div class="faq-item reveal"><button class="faq-q" onclick="toggleFaq(this)">How long before I see results? <span class="faq-icon">+</span></button><div class="faq-body"><div class="faq-body-inner">Most customers notice improved energy and stamina within 1–2 weeks of regular use. For stronger immunity and visible body strength, consistent daily use for 4–6 weeks is recommended. Results may vary.</div></div></div>
+    <div class="faq-item reveal"><button class="faq-q" onclick="toggleFaq(this)">Does it contain preservatives or artificial chemicals? <span class="faq-icon">+</span></button><div class="faq-body"><div class="faq-body-inner">Absolutely not. Pankhudi Juice contains zero artificial preservatives, colors or synthetic chemicals. Only 100% natural herbal ingredients — what is on the label is exactly what is in the bottle.</div></div></div>
+    <div class="faq-item reveal"><button class="faq-q" onclick="toggleFaq(this)">How do I place an order? <span class="faq-icon">+</span></button><div class="faq-body"><div class="faq-body-inner">Two easy ways: (1) Fill the Order Form on this page — it sends your details directly to our WhatsApp. (2) WhatsApp us directly at +91 98290-35796 with your name, address, product and quantity. We deliver across all of India.</div></div></div>
+    <div class="faq-item reveal"><button class="faq-q" onclick="toggleFaq(this)">Do you deliver to my state? Is Cash on Delivery available? <span class="faq-icon">+</span></button><div class="faq-body"><div class="faq-body-inner">Yes! We deliver to all states across India via courier. Cash On Delivery is available in most areas. Once you order, our team confirms your delivery timeline via WhatsApp.</div></div></div>
+    <div class="faq-item reveal"><button class="faq-q" onclick="toggleFaq(this)">How should I store Pankhudi Juice? <span class="faq-icon">+</span></button><div class="faq-body"><div class="faq-body-inner">Keep in a cool, dry place away from direct sunlight. Refrigerate after opening for best shelf life. Always shake well before use. Check the batch and expiry date printed on the bottle.</div></div></div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-center">✦ &nbsp; ✦ &nbsp; ✦</div><div class="divider-line"></div></div>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="section-header reveal">
+    <div class="eyebrow">Get in Touch</div>
+    <h2>Contact <em>Us</em></h2>
+    <p>For orders, queries or anything — we're always happy to hear from you.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card reveal reveal-delay-1" onclick="window.open('https://maps.google.com?q=Bundi+Rajasthan+India','_blank')">
+      <div class="cc-icon">📍</div><div><div class="cc-label">Address</div><div class="cc-val">Chouhan Food Corporation<br>Bundi, Rajasthan – India</div></div>
+    </div>
+    <div class="contact-card reveal reveal-delay-2" onclick="window.location.href='tel:+919829035796'">
+      <div class="cc-icon">📞</div><div><div class="cc-label">Phone / WhatsApp</div><div class="cc-val">+91 98290-35796</div></div>
+    </div>
+    <div class="contact-card reveal reveal-delay-3" onclick="window.location.href='mailto:chouhanfoodcorporation@gmail.com'">
+      <div class="cc-icon">✉️</div><div><div class="cc-label">Email</div><div class="cc-val">chouhanfoodcorporation<br>@gmail.com</div></div>
+    </div>
+  </div>
+  <div class="social-section reveal">
+    <div class="social-title">✦ Order &amp; Follow Us ✦</div>
+    <div class="social-sub">Connect with us on social media for the latest offers, updates and to place your order instantly.</div>
+    <div class="social-btns">
+      <button class="social-btn sb-insta" onclick="window.open('https://www.instagram.com/chouhan_food_corporation','_blank')">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        @chouhan_food_corporation
+      </button>
+      <a class="social-btn sb-wa" href="https://wa.me/919829035796?text=Hi%2C%20I%20want%20to%20order%20Pankhudi%20Products%20%F0%9F%8C%BF" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.849L0 24l6.335-1.498A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.67-.497-5.2-1.366l-.374-.222-3.878.916.972-3.766-.243-.387A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        +91 98290-35796
+      </a>
+    </div>
+  </div>
+</section>
+
+</div><!-- end .page -->
+
+<!-- ══ FLOATING CTA ══ -->
+<div class="float-cta">
+  <a class="float-btn fb-wa" href="https://wa.me/919829035796?text=Hi%2C%20I%20want%20to%20order%20Pankhudi!" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.849L0 24l6.335-1.498A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.67-.497-5.2-1.366l-.374-.222-3.878.916.972-3.766-.243-.387A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    WhatsApp
+  </a>
+  <button class="float-btn fb-order" onclick="document.getElementById('order').scrollIntoView({behavior:'smooth'})">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+    Order Now
+  </button>
+</div>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">पंखुड़ी</div>
+        <div class="footer-logo-en">Pankhudi</div>
+        <div class="footer-logo-sub">Chouhan Food Corporation · Bundi</div>
+        <div class="footer-tagline">Pure nature. Real results. For everyone — crafted with love from the heart of Rajasthan.</div>
+      </div>
+      <div class="footer-links">
+        <a href="#gallery">Gallery</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#ingredients">Herbs</a>
+        <a href="#how">How to Use</a>
+        <a href="#products">Products</a>
+        <a href="#order">Order</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025–2026 Chouhan Food Corporation, Bundi, Rajasthan · +91 98290-35796 · All Rights Reserved</div>
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <div class="footer-seal">✦ 100% Natural Seal</div>
+        <div class="footer-love">Made with <span>❤</span> in Rajasthan 🇮🇳</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* NAV */
+var nav=document.getElementById('navbar');
+window.addEventListener('scroll',function(){
+  nav.classList.toggle('scrolled',window.scrollY>60);
+  var pct=(window.scrollY/(document.body.scrollHeight-window.innerHeight))*100;
+  document.getElementById('progressBar').style.width=pct+'%';
+});
+/* MENU */
+function openMenu(){document.getElementById('mobileMenu').classList.add('open');document.body.style.overflow='hidden';}
+function closeMenu(){document.getElementById('mobileMenu').classList.remove('open');document.body.style.overflow='';}
+/* REVEAL */
+var obs=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting){en.target.classList.add('visible');obs.unobserve(en.target);}});},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
+/* COUNTER */
+var counted=false;
+new IntersectionObserver(function(e){
+  if(e[0].isIntersecting&&!counted){counted=true;
+    document.querySelectorAll('.stat-num[data-target]').forEach(function(el){
+      var t=parseInt(el.getAttribute('data-target')),s=null;
+      function step(ts){if(!s)s=ts;var p=Math.min((ts-s)/1800,1),v=1-Math.pow(1-p,3);el.textContent=Math.floor(v*t);if(p<1)requestAnimationFrame(step);else el.textContent=t;}
+      requestAnimationFrame(step);
+    });
+  }
+},{threshold:0.5}).observe(document.querySelector('.stats-bar'));
+/* FAQ */
+function toggleFaq(btn){var i=btn.parentElement,o=i.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(x){x.classList.remove('open');});if(!o)i.classList.add('open');}
+/* ORDER */
+function selectProduct(el,prod){
+  document.querySelectorAll('.order-opt').forEach(function(o){o.classList.remove('selected');});
+  el.classList.add('selected');
+  var s=document.getElementById('fproduct');
+  for(var i=0;i<s.options.length;i++){if(s.options[i].value===prod){s.selectedIndex=i;break;}}
+}
+function submitOrder(e){
+  e.preventDefault();
+  var n=document.getElementById('fname').value.trim();
+  var p=document.getElementById('fphone').value.trim();
+  var pr=document.getElementById('fproduct').value;
+  var q=document.getElementById('fqty').value;
+  var st=document.getElementById('fstate').value.trim();
+  var ad=document.getElementById('faddress').value.trim();
+  var ms=document.getElementById('fmessage').value.trim();
+  if(!n||!p||!pr||!st||!ad){alert('Please fill all required fields.');return;}
+  var txt='🌿 *New Order — Pankhudi*%0A%0A'
+    +'👤 *Name:* '+encodeURIComponent(n)+'%0A'
+    +'📞 *Phone:* '+encodeURIComponent(p)+'%0A'
+    +'📦 *Product:* '+encodeURIComponent(pr)+'%0A'
+    +'🔢 *Qty:* '+q+'%0A'
+    +'📍 *State:* '+encodeURIComponent(st)+'%0A'
+    +'🏠 *Address:* '+encodeURIComponent(ad)
+    +(ms?'%0A💬 *Note:* '+encodeURIComponent(ms):'')
+    +'%0A%0A✅ Please confirm my order!';
+  document.getElementById('formSuccess').style.display='block';
+  document.getElementById('orderForm').style.opacity='0.4';
+  setTimeout(function(){window.open('https://wa.me/919829035796?text='+txt,'_blank');},600);
+}
+/* GOLD PARTICLES */
+(function(){
+  var c=document.getElementById('particles');
+  for(var i=0;i<20;i++){
+    var p=document.createElement('div');p.className='particle';
+    var s=Math.random()*3+1;
+    p.style.cssText='width:'+s+'px;height:'+s+'px;left:'+(Math.random()*100)+'%;animation-duration:'+(Math.random()*25+20)+'s;animation-delay:'+(Math.random()*25)+'s;';
+    c.appendChild(p);
+  }
+})();
+</script>
+</body>
+</html>
